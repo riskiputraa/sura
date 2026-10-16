@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #243447;
+  background: #f4f7fa;
+  line-height: 1.6;
+}
+
+header {
+  background: #174a7e;
+  color: white;
+  padding: 20px 6%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  padding: 70px 6%;
+  color: white;
+  background: linear-gradient(120deg, #174a7e, #2e8b83);
+}
+
+.hero h2 {
+  font-size: 2.4rem;
+  margin: 8px 0;
+}
+
+.section {
+  padding: 32px 6%;
+}
+
+.section img {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+  border-radius: 12px;
+}
+
+.kartu-container {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.kartu {
+  flex: 1 1 220px;
+  background: white;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.sumber {
+  font-size: 0.85rem;
+  color: #526273;
+}
+
+footer {
+  background: #123654;
+  color: white;
+  text-align: center;
+  padding: 16px;
+}
+
+@media (max-width: 600px) {
+  nav a {
+    display: inline-block;
+    margin: 4px 10px 4px 0;
+  }
+
+  .hero h2 {
+    font-size: 1.8rem;
+  }
+}
